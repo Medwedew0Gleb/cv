@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #6b4f2c, #8d6e4a);
+    border-radius: 20px;
+    gap: 200px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-text h2 {
+    font-size: 45px;
+    margin: 0 0 15px 0;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.profile-text p {
+    font-size: 25px;
+    color: #eeeeee;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.Conteiner-ContactsAboutme {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 50px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.Contacts-text, .Aboutme-text {
+    padding: 20px;
+
+}
+.Contacts-text {
+    white-space: nowrap;
+}
+h2 {
+    color: #6b4f2c;
+    font-size: 40px;
+    margin-top: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Contacts-text p{
+    margin: 15px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.Contacts-text a {
+    color: #6b4f2c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Contacts-text a:hover {
+    color: #8d6e4a;
+}
+
+.Aboutme-text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.Skills-text p {
+    width: 500px;
+}
+.Skills-text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+.Skills-text li {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.Code-text pre {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+strong {
+    color: #6b4f2c;
+    font-weight: 600;
+}
+
+.fas {
+    width: 25px;
+    text-align: center;
+    color: #8d6e4a;
+}
